@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1440 height=3200 tabindex="-1" style="width: 1440px; height: 3200px; background: #231F20"></canvas>
-    <script src="Build/c10.loader.js"></script>
+    <script src="Build/c11.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/c10.data.gz",
-        frameworkUrl: "Build/c10.framework.js.gz",
-        codeUrl: "Build/c10.wasm.gz",
+        dataUrl: "Build/c11.data.br",
+        frameworkUrl: "Build/c11.framework.js.br",
+        codeUrl: "Build/c11.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WeddingCard Afifah_Zahreen",
